@@ -11,6 +11,7 @@ class Ui_Voter(object):
 
     def browse_file(self):
         fileName, _ = QtWidgets.QFileDialog.getOpenFileName(None, "Select File")
+
         print(fileName)
         self.lineEdit.setText(fileName)
 
@@ -80,7 +81,7 @@ class Ui_Voter(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(712, 456)
-        Dialog.setStyleSheet("background-color: rgb(204, 136, 0);")
+        Dialog.setStyleSheet("background-color: rgb(73, 93, 217);")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(290, 40, 271, 91))
         self.label.setStyleSheet("color: rgb(255, 255, 255);\n"
@@ -118,6 +119,7 @@ class Ui_Voter(object):
         self.lineEdit_2.setGeometry(QtCore.QRect(240, 150, 271, 41))
         self.lineEdit_2.setStyleSheet("font: 14pt \"Times New Roman\";")
         self.lineEdit_2.setObjectName("lineEdit_2")
+        # self.lineEdit_2.setStyleSheet("color: rgb(255,255,255);")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)

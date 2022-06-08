@@ -47,7 +47,7 @@ class Ui_AddNominee(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(609, 503)
-        Dialog.setStyleSheet("background-color: rgb(200, 129, 152);")
+        Dialog.setStyleSheet("background-color: rgb(0, 176, 255);")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(230, 60, 201, 31))
         self.label.setStyleSheet("font: 75 14pt \"Vani\";")

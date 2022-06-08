@@ -69,7 +69,7 @@ class Ui_AddVoter(object):
 
         Dialog.setObjectName("Dialog")
         Dialog.resize(712, 531)
-        Dialog.setStyleSheet("background-color: rgb(85, 170, 127);")
+        Dialog.setStyleSheet("background-color: rgb(73,93,217);")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(270, 40, 271, 91))
         self.label.setStyleSheet("color: rgb(255, 255, 255);\n"

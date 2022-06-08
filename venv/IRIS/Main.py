@@ -33,10 +33,10 @@ class Ui_Main(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(800, 600)
-        Dialog.setStyleSheet("background-color: rgb(250, 52, 174);")
+        Dialog.setStyleSheet("background-color: rgb(241, 250, 238);")
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(40, 50, 781, 51))
-        self.label.setStyleSheet("color: rgb(255, 255, 255);\n"
+        self.label.setGeometry(QtCore.QRect(50, 50, 781, 51))
+        self.label.setStyleSheet("color: rgb(29, 29, 29);\n"
 "font: 20pt \"Vani\";")
         self.label.setObjectName("label")
         self.voter = QtWidgets.QLabel(Dialog)
@@ -54,12 +54,12 @@ class Ui_Main(object):
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(140, 370, 121, 31))
         self.label_2.setStyleSheet("font: 16pt \"Vani\";\n"
-"color: rgb(255, 255, 255);")
+"color: rgb(29, 29, 29);")
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(Dialog)
         self.label_3.setGeometry(QtCore.QRect(490, 360, 121, 41))
         self.label_3.setStyleSheet("font: 16pt \"Vani\";\n"
-"color: rgb(255, 255, 255);")
+"color: rgb(29, 29, 29);")
         self.label_3.setObjectName("label_3")
 
 

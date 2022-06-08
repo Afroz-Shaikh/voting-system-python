@@ -37,15 +37,15 @@ class Ui_Admin(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(638, 480)
-        Dialog.setStyleSheet("background-color: rgb(255, 170, 127);")
+        Dialog.setStyleSheet("background-color: rgb(230, 57, 70);")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(210, 50, 251, 41))
         self.label.setStyleSheet("font: 16pt \"Verdana\";\n"
-"color: rgb(85, 85, 127);")
+"color: rgb(241, 250, 238);")
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(140, 150, 151, 21))
-        self.label_2.setStyleSheet("color: rgb(85, 85, 127);\n"
+        self.label_2.setStyleSheet("color: rgb(241, 250, 238);\n"
 "font: 75 14pt \"Vani\";")
         self.label_2.setObjectName("label_2")
         self.lineEdit = QtWidgets.QLineEdit(Dialog)
@@ -55,7 +55,7 @@ class Ui_Admin(object):
         self.lineEdit.setObjectName("lineEdit")
         self.label_3 = QtWidgets.QLabel(Dialog)
         self.label_3.setGeometry(QtCore.QRect(140, 240, 221, 21))
-        self.label_3.setStyleSheet("color: rgb(85, 85, 127);\n"
+        self.label_3.setStyleSheet("color: rgb(241, 250, 238);\n"
 "font: 75 14pt \"Vani\";")
         self.label_3.setObjectName("label_3")
         self.lineEdit_2 = QtWidgets.QLineEdit(Dialog)
@@ -66,7 +66,7 @@ class Ui_Admin(object):
         self.lineEdit_2.setObjectName("lineEdit_2")
         self.pushButton = QtWidgets.QPushButton(Dialog)
         self.pushButton.setGeometry(QtCore.QRect(204, 330, 101, 41))
-        self.pushButton.setStyleSheet("background-color: rgb(85, 170, 127);\n"
+        self.pushButton.setStyleSheet("background-color: rgb(0, 176, 255);\n"
 "font: 75 14pt \"Times New Roman\";\n"
 "color: rgb(255, 255, 255);")
         self.pushButton.setObjectName("pushButton")

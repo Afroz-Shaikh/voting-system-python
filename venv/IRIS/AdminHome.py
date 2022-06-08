@@ -82,35 +82,35 @@ class Ui_AdminHome(object):
         self.label.setObjectName("label")
         self.pushButton_2 = QtWidgets.QPushButton(Dialog)
         self.pushButton_2.setGeometry(QtCore.QRect(390, 80, 251, 41))
-        self.pushButton_2.setStyleSheet("background-color: rgb(170, 85, 127);\n"
+        self.pushButton_2.setStyleSheet("background-color: rgb(29, 53, 87);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 14pt \"Franklin Gothic Heavy\";")
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_2.clicked.connect(self.viewnomine);
         self.pushButton_3 = QtWidgets.QPushButton(Dialog)
         self.pushButton_3.setGeometry(QtCore.QRect(60, 80, 251, 41))
-        self.pushButton_3.setStyleSheet("background-color: rgb(170, 85, 127);\n"
+        self.pushButton_3.setStyleSheet("background-color: rgb(29, 53, 87);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 14pt \"Franklin Gothic Heavy\";")
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_3.clicked.connect(self.addnomine);
         self.pushButton_4 = QtWidgets.QPushButton(Dialog)
         self.pushButton_4.setGeometry(QtCore.QRect(60, 170, 251, 41))
-        self.pushButton_4.setStyleSheet("background-color: rgb(0, 39, 58);\n"
+        self.pushButton_4.setStyleSheet("background-color: rgb(0, 176, 255);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 14pt \"Franklin Gothic Heavy\";")
         self.pushButton_4.setObjectName("pushButton_4")
         self.pushButton_4.clicked.connect(self.addvoter);
         self.pushButton_5 = QtWidgets.QPushButton(Dialog)
         self.pushButton_5.setGeometry(QtCore.QRect(390, 170, 251, 41))
-        self.pushButton_5.setStyleSheet("background-color: rgb(0, 39, 58);\n"
+        self.pushButton_5.setStyleSheet("background-color: rgb(0, 176, 255);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 14pt \"Franklin Gothic Heavy\";")
         self.pushButton_5.setObjectName("pushButton_5")
         self.pushButton_5.clicked.connect(self.viewvoters);
         self.pushButton_6 = QtWidgets.QPushButton(Dialog)
         self.pushButton_6.setGeometry(QtCore.QRect(140, 260, 421, 41))
-        self.pushButton_6.setStyleSheet("background-color: rgb(53, 0, 0);\n"
+        self.pushButton_6.setStyleSheet("background-color: rgb(230, 57, 70);\n"
 "color: rgb(255, 255, 255);\n"
 "font: 14pt \"Franklin Gothic Heavy\";")
         self.pushButton_6.setObjectName("pushButton_6")
@@ -122,7 +122,7 @@ class Ui_AdminHome(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "AdminHome"))
-        self.label.setText(_translate("Dialog", "TextLabel"))
+        # self.label.setText(_translate("Dialog", "TextLabel"))
         self.pushButton_2.setText(_translate("Dialog", "View Nominees"))
         self.pushButton_3.setText(_translate("Dialog", "Add Nominee"))
         self.pushButton_4.setText(_translate("Dialog", "Add Voter"))
